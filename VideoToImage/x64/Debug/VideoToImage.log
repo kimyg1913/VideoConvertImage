@@ -1,0 +1,4 @@
+﻿  main.cpp
+d:\ligproject\videotoimage\videotoimage\main.cpp(74): warning C4101: 'fps' :참조되지 않은 지역 변수입니다.
+  VideoToImage.vcxproj -> D:\LIGProject\VideoToImage\x64\Debug\VideoToImage.exe
+  VideoToImage.vcxproj -> D:\LIGProject\VideoToImage\x64\Debug\VideoToImage.pdb (Partial PDB)

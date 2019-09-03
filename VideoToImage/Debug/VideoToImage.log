@@ -1,0 +1,15 @@
+﻿  main.cpp
+d:\ligproject\videotoimage\videotoimage\main.cpp(18): warning C4101: 'fps' :참조되지 않은 지역 변수입니다.
+d:\ligproject\videotoimage\videotoimage\main.cpp(78): warning C4101: 'fps' :참조되지 않은 지역 변수입니다.
+main.obj : error LNK2019: "private: void __thiscall cv::String::deallocate(void)" (?deallocate@String@cv@@AAEXXZ) 외부 기호(참조 위치: "public: __thiscall cv::String::~String(void)" (??1String@cv@@QAE@XZ) 함수)에서 확인하지 못했습니다.
+main.obj : error LNK2019: "class cv::String __cdecl cv::format(char const *,...)" (?format@cv@@YA?AVString@1@PBDZZ) 외부 기호(참조 위치: "int __cdecl FrameExtractionFromVideo(char const *)" (?FrameExtractionFromVideo@@YAHPBD@Z) 함수)에서 확인하지 못했습니다.
+main.obj : error LNK2019: _cvSaveImage 외부 기호(참조 위치: "int __cdecl FrameExtractionFromVideo(char const *)" (?FrameExtractionFromVideo@@YAHPBD@Z) 함수)에서 확인하지 못했습니다.
+main.obj : error LNK2019: _cvCreateFileCapture 외부 기호(참조 위치: "int __cdecl FrameExtractionFromVideo(char const *)" (?FrameExtractionFromVideo@@YAHPBD@Z) 함수)에서 확인하지 못했습니다.
+main.obj : error LNK2019: _cvQueryFrame 외부 기호(참조 위치: "int __cdecl FrameExtractionFromVideo(char const *)" (?FrameExtractionFromVideo@@YAHPBD@Z) 함수)에서 확인하지 못했습니다.
+main.obj : error LNK2019: _cvReleaseCapture 외부 기호(참조 위치: "int __cdecl FrameExtractionFromVideo(char const *)" (?FrameExtractionFromVideo@@YAHPBD@Z) 함수)에서 확인하지 못했습니다.
+main.obj : error LNK2019: _cvNamedWindow 외부 기호(참조 위치: "int __cdecl FrameExtractionFromVideo(char const *)" (?FrameExtractionFromVideo@@YAHPBD@Z) 함수)에서 확인하지 못했습니다.
+main.obj : error LNK2019: _cvShowImage 외부 기호(참조 위치: "int __cdecl FrameExtractionFromVideo(char const *)" (?FrameExtractionFromVideo@@YAHPBD@Z) 함수)에서 확인하지 못했습니다.
+main.obj : error LNK2019: _cvWaitKey 외부 기호(참조 위치: "int __cdecl FrameExtractionFromVideo(char const *)" (?FrameExtractionFromVideo@@YAHPBD@Z) 함수)에서 확인하지 못했습니다.
+D:\opencv347\opencv\build\x64\vc15\lib\opencv_world347.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'X86' 대상 컴퓨터 종류와 충돌합니다.
+D:\opencv347\opencv\build\x64\vc15\lib\opencv_world347d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'X86' 대상 컴퓨터 종류와 충돌합니다.
+D:\LIGProject\VideoToImage\Debug\VideoToImage.exe : fatal error LNK1120: 9개의 확인할 수 없는 외부 참조입니다.
